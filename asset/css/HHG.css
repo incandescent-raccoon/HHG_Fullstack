@@ -1,47 +1,44 @@
-.header_nav {
-    background-color: black;
-   
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-
-.header_nav > div {
-    margin: 25px;
-    display: flex;
-}
-/* .header_nav :nth-child(1) {
-    padding-left: 25px;
-}
-.header_nav :nth-child(2) {
-    display: flex;
-    padding-right: 25px;
-} */
-
-.khoang_giua {
-    display: flex;
-}
-.khoang_giua > div {
-    margin: 0 25px;
-}
-
-
-
-
-
 
 body {
     margin: 0;
-    color : white;
+    color: brown;
+    
+
 }
 
-.main_nav {
-    background-color: black;
-    height: 100px;
-    width: 100%;
+button {
+    padding: 0;
+    border: 0;
+}
+.logohhg {
+    height: 4vh;
+    aspect-ratio: 1/1;
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    header{
+        background-color: black;
+        padding: 3vh 2vh;
+
+    }
+    .right_nav{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+
+    }
+    
+    .header_nav{
+        height: 4vh;
+        width: 100%;
+        display: flex;  
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
 
 }
