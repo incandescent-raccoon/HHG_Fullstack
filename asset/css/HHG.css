@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    color: brown;
+    color: white;
     
 
 }
@@ -16,21 +16,38 @@ button {
 }
 
 
+h1, h2, h3, h5, h6 {
+    margin: 0;
+}
 
+.introduction {
+    height: 100vh;
+    background-color: #10069f;
+    align-content: flex-end  ;
+}
 
-@media screen and (max-width: 450px) {
-    header{
-        background-color: black;
-        padding: 3vh 2vh;
+p {
+    margin: 0;
+    font-size: 1rem;
 
-    }
-    .right_nav{
-        display: flex;
-        width: 50%;
-        justify-content: space-between;
-
-    }
+}
+.logo_to_main{
+    font-size: 100%; 
+    margin: 0 ;
     
+}
+
+
+
+
+/* @media screen and (max-width: 450px) {
+    header{
+        background-color: #10069f;
+        padding: 3vh 2vh;
+        position: fixed;
+        width: 100%; 
+
+    }
     .header_nav{
         height: 4vh;
         width: 100%;
@@ -40,5 +57,79 @@ button {
         align-items: center;
         
     }
+    .right_nav{
+        display: flex;
+        width: 50%;
+        margin-right: 3vh; 
+        justify-content: space-between;
 
+    }
+    .right_nav div {
+        margin-left: 3vh;
+    }
+   
+} */
+
+@media screen and (max-width: 450px) {
+    header{
+        background-color: #189f068f;
+        position: fixed;
+        width: 100%; 
+
+    }
+    .header_nav{
+        height: 4vh;
+        margin: 3vh 2vh;
+        display: flex;  
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .right_nav{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+
+    }
+    .quotehhg {
+        width: 100%;
+    }
+    
+    .quoteholder{
+        margin : 0 2vh 15vh 2vh;
+    }
+    .quoteholder h3 {
+        margin: 2vh 0 0 0 ;
+    }
+
+    .background-story{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #121212;
+
+
+    }
+    .background-story-container {
+
+        margin: 15vh 2vh 0 2vh;
+
+    }
+    .ambience{
+        width: 100%;
+        margin: 5vh 0 5vh 0;
+    }
+    .vững_truyền_thống{
+        width: 100%;
+    }
+    .scrapstory{
+        margin: 2vh 0 0 0;
+    }
+    .buttonaboutus{
+        margin: 3vh 0 3vh 0;
+    }
+
+    
 }
+
