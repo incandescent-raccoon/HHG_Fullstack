@@ -72,7 +72,8 @@ p {
 
 @media screen and (max-width: 450px) {
     header{
-        background-color: #189f068f;
+        background-color: transparent;
+     
         position: fixed;
         width: 100%; 
 
@@ -89,6 +90,7 @@ p {
     .right_nav{
         display: flex;
         width: 50%;
+    
         justify-content: space-between;
 
     }
@@ -104,7 +106,7 @@ p {
     }
 
     .background-story{
-        height: 100vh;
+        height: 120vh;
         display: flex;
         flex-direction: column;
         background-color: #121212;
@@ -118,18 +120,158 @@ p {
     }
     .ambience{
         width: 100%;
-        margin: 5vh 0 5vh 0;
+        margin: 0 0 5vh 0;
     }
     .vững_truyền_thống{
         width: 100%;
     }
     .scrapstory{
-        margin: 2vh 0 0 0;
+        margin: 3vh 0 3vh 0;
     }
     .buttonaboutus{
         margin: 3vh 0 3vh 0;
     }
 
+
+
+
+    .background-story1-container{
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        padding : 3vh;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 9px;
+        background-attachment: scroll;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+
+
+    .background-story1{
+        background-color: #fff345;
+        color: black;
+    }
+    .ka1{
+        width: 100%;
+        margin: 0 0 0 0;
+        grid-column: 6/ 12;
+        grid-row: 4 ;    
+        
+       
+    }
+    .kal2{
+        width: 100%;
+        margin: 5vh 0 5vh 0;
+        grid-column: 2 / 12;
+        grid-row: 1;  
+       
+    }
+    .kal3{
+        width: 100%  ;
+        grid-column: 1 / 10;
+        grid-row: 7 / 12;
+        
+    }
+
+
+
+
+    .background-story2-container{
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        padding : 3vh;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 9px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+
+
+    .background-story2{
+        background-color: #fff345;
+       
+    }
+
+    .nghethuatphelieu{
+        color: black;
+        text-align: center;
+        padding: 3vh;
+    }
+
+
+    .kal4{
+        width: 100%;
+
+        grid-column: 1/ 12;
+        grid-row: 1 ;  
+       
+    }
+    .kal5{
+        width: 100%;
+        margin: 5vh 0 5vh 0;
+        grid-column: 9 / 14;
+        grid-row: 3; 
+      
+       
+    }
+    .kal6{
+        width: 100%  ;
+        grid-column: 1/10;
+        grid-row: 5 ;
+      
+    }
+
+    .serviceproduct-container{
+        background-color: #fff345;
+        width: 100%;    
+       height: 100vh;
+       position: relative;
+       
+       color: black;
+    }
+  
+
+    .kal7-1{
+        position: absolute;
+        padding: 50vh 0 0 2vh;
+       
+     }
+     .kal8-1{
+        position: absolute;
+        padding: 50vh 0 0 2vh;
+        
+     }
+     .kal9-1{
+        position: absolute;
+        padding: 50vh 0 0 2vh;
+        
+     }
+
     
+    .kal7{
+       width: 100%;  
+       
+    }
+    .kal8{
+        
+        width: 100%;  
+    }
+    .kal9{
+      
+        width: 100%;  
+    }
+
+    
+
+
+
+
+
+
+   
 }
 
