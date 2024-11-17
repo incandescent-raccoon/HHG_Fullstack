@@ -1,0 +1,133 @@
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    text-align: center;
+
+    
+}
+h5 {
+    margin: 0 0 20px 0;
+    font-size: 1em;
+}
+h3 {
+    font-size: 2em;
+    font-weight: 200;
+}
+h4 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 3em;
+}
+
+@media (max-width: 450px) {
+    
+    
+    .logo {
+        width: 40px;
+        aspect-ratio: 1/1;
+    }
+    header {
+        position: fixed;
+        width: 100%;
+        background-color: transparent;
+        z-index: 1;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 5% 5%;
+    }
+    .header-nav-right {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5em;
+    }
+    .home1 {
+        width: 90%;
+        padding: 50vh 5% 15vh 5%;
+        background-color: black;
+        color: white;
+        height: 35vh;
+        justify-content: flex-end;
+    }
+    .home2 {
+        width: 90%;
+        height: 90vh;
+        padding: 5vh 5%;
+        background-color: rgb(251, 240, 218);
+        color: black;
+        border-bottom: solid black ;
+    }
+    .home2banner {
+        margin: 2vh 0;
+        width: 100%;
+    }
+    p {
+        text-align: left;
+    }
+    button {
+        display: block;
+    }
+
+    .home3 {
+        width: 90%;
+        height: 190vh;
+        padding: 5vh 5%;
+        background-color: rgb(251, 240, 218);
+        display: grid;
+        grid-template-columns: repeat(10,1fr);
+        column-gap: 2%;
+    }
+    .grid-image1 {
+        grid-column: 3/9;
+        width: 100%;
+    }
+    .grid-image2 {
+        grid-column: 7/11;
+        width: 100%;
+    }
+    .grid-image3 {
+        grid-column: 1/6;
+        width: 100%;
+    }
+    .grid-image4 {
+        grid-column: 1/7;
+        width: 100%;
+    }
+    .grid-image5 {
+        grid-row: 5;
+        grid-column: 8/11;
+        width: 100%;
+    }
+    .grid-image6 {
+        grid-row: 6;
+        grid-column: 4/8;
+        width: 100%;
+    }
+    .home4 {
+        width: 100%;
+        
+    }
+    .hero-image {
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home4_hi.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .hero-text {
+        padding: 50vh 5% 30vh 5%;
+        position: absolute;
+        color: white;
+        
+    }
+    .hero-text > h5,h2,h4 {
+        text-align: left;
+    }
+    
+
+
+}
