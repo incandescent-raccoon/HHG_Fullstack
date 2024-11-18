@@ -1,8 +1,7 @@
 
 body {
     margin: 0;
-    color: white;
-    
+    color: rebeccapurple;
 
 }
 
@@ -143,8 +142,8 @@ p {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         gap: 9px;
-        background-attachment: scroll;
-        grid-auto-rows: minmax(100px, auto);
+       
+        /* grid-auto-rows: minmax(100px, auto); */
     }
 
 
@@ -226,50 +225,68 @@ p {
     }
 
     .serviceproduct-container{
-        background-color: #fff345;
+        background-color: #121212;
         width: 100%;    
-       height: 100vh;
-       position: relative;
-       
-       color: black;
+
     }
-  
-
-    .kal7-1{
-        position: absolute;
-        padding: 50vh 0 0 2vh;
-       
-     }
-     .kal8-1{
-        position: absolute;
-        padding: 50vh 0 0 2vh;
-        
-     }
-     .kal9-1{
-        position: absolute;
-        padding: 50vh 0 0 2vh;
-        
-     }
-
+    .serviceproduct{
+        background-color: #fff345;
+    }
+   
     
-    .kal7{
-       width: 100%;  
-       
+    .hinhanh1{
+        background-image: url("../img/kal7.jpg");
+        width: 100%;
+        height: 100vh;
+        background-position:center;
+        background-size: cover;
+        position: relative;
     }
-    .kal8{
+ 
+    .hinhanh2{
+        background-image: url("../img/kal8.jpg");
+        width: 100%;
+        height: 100vh;
+        background-position:center;
+        background-size: cover;
+        position: relative;
         
-        width: 100%;  
     }
-    .kal9{
-      
-        width: 100%;  
+    .hinhanh3{
+        background-image: url("../img/amiya9.jpg");
+        width: 100%;
+        height: 100vh;
+        background-position:center;
+        background-size: cover;
+        position: relative;
+        
     }
-
     
+   .texthinhanh1{
+    padding: 50vh 8vh 40vh 2vh;
+    position: absolute;
+   }
+     
+   .texthinhanh2{
+    padding: 50vh 8vh 40vh 2vh;
+    position: absolute;
+   }
+     
+   .texthinhanh3{
+    padding: 50vh 8vh 40vh 2vh;
+    position: absolute;
+   }
 
+   .buttonseeproject{
+    margin: 20vh 0 0 0 ;
+ 
+    
+   }
 
-
-
+    .racoon{
+        width: 100%;
+        
+    }
 
 
    
