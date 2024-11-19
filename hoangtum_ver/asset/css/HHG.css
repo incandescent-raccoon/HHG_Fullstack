@@ -282,12 +282,82 @@ p {
  
     
    }
+   .Sustainlife{
+    background-color: #fff345;
+   }
 
+   .Vungkientruc{
+    width: 100%;
+     height:100vh;
+     text-align: left;
+
+ 
+     background-color:#fff345;
+   }
+ 
     .racoon{
+        margin:  15vh 0 0 0 ;
         width: 100%;
-        
+        height: 30vh;
+
+    }
+    
+    .racoon1{
+        margin:  3vh 0 0 0 ;
+        width: 100%;
+        height: 30vh;
+
     }
 
+    .Vung{
+        text-align: center;
+    }
+
+    .chamngonkientruc{
+        margin: 2vh 2vh 0 2vh;
+    }
+
+    .buttonsustain{
+        margin: 5vh 0  0 2vh;
+    }
+
+    .customerpartnership{
+        background-color: #fff345;
+        height: 100vh;
+        width: 100%;
+    }
+
+   
+
+    .racoon2 {
+        width: 20%;
+
+    }
+
+    .Vungdichvu{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        background-color: #fff345;
+        font-size: 40px;
+        
+    }
+    .chamngondichvu{
+        margin: 2vh 2vh 0 2vh;
+
+    }
+
+    .bangnhau{
+        text-align: left;
+        margin: 2vh 5vh 5vh 5vh;
+        
+    }
+    .Servicebutton{
+        margin: 2vh 2vh 2vh 2vh;
+
+    }
+
+ 
 
    
 }
