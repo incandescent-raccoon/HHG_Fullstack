@@ -357,6 +357,59 @@ p {
 
     }
 
+
+
+
+
+
+
+    .achievementment{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        background-color: #fff345;
+        font-size: 40px;
+        
+    }
+    .thanhtuuHHG{
+        margin: 2vh 2vh 0 2vh;
+
+    }
+
+    .thanhtuu{
+        text-align: left;
+        margin: 2vh 5vh 5vh 5vh;
+        
+    }
+    .achievement{
+        margin: 2vh 2vh 2vh 2vh;
+
+    }
+
+    .vungketqua1{
+        padding: 2vh 2vh 0 2vh;
+        font-size: 80%;
+    }
+
+    .vungketqua{
+        font-size: 60%;
+    }
+
+
+
+    .racoon3 {
+        width: 30%;
+        height: 50vh;
+    }
+    .racoon4{
+        width: 30%;
+        height: 50vh;
+    }
+    .racoon5{
+        width: 30%;
+        height: 50vh;
+    }
+
  
 
    
